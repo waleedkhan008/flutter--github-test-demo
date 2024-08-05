@@ -48,6 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
   
     return Scaffold(
       appBar: AppBar(
+        
        
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         
@@ -60,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              'Testing',
             ),
             Text(
               '$_counter',
